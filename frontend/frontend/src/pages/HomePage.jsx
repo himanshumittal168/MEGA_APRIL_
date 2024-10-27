@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 
+//                         BASE +endpt   
+//  http://localhost:4000/base/ get
 function HomePage()
 {
 

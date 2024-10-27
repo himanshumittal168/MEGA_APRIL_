@@ -20,7 +20,7 @@ Frontend
         Page-2 Button create Employee-> Post api -> createUser
         Page-1 useEffect->type2  (getalldata)
         <table> <tr> <th> <td>
-        UseEffect
+        UseEffect  -> []
         1. On Every render
         2. On First render
         3. On Dependency
@@ -28,3 +28,15 @@ Frontend
 
 
 
+
+
+
+
+Sunday -> 1-Project
+    1hr->NodeMailer
+    2hr-> Cloudaniry
+
+
+Next Class
+    1hr->OTP Verificaiton
+    1hr->Forget Password
