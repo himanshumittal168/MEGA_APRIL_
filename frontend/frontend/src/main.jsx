@@ -10,10 +10,10 @@ const appRouter=createBrowserRouter(
   [
     {
       path:"/",
-      element:<HomePage></HomePage>
+      element:<HomePage></HomePage>  // table and data show
     },
     {
-      path:"/addemployee",
+      path:"/addemployee",  // form page
       element:<FormPage></FormPage>
     },
   ]

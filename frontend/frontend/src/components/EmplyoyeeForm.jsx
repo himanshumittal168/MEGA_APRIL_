@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-
+import { Link } from "react-router-dom";
 function EmplyoyeeForm()
 {
     const [formdata,setformdata]=useState({
@@ -20,11 +20,14 @@ function EmplyoyeeForm()
         }))
     }
     // createUser->end_point
+
+    
     const handlesubmit=async(e)=>
     {
+        e.preventDefault();
         try
         {
-            const response=await fetch("http://localhost:4000/base/createUser",{
+            const response=await fetch("http://localhost:4000/base/create",{
                 method:"POST",
                 headers:{"Content-Type":"application/json"},
                 body:JSON.stringify(formdata),    

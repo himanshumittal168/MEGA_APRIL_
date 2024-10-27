@@ -1,20 +1,14 @@
+import EmplyoyeeForm from "../components/EmplyoyeeForm";
+import { Link } from "react-router-dom";
 function FormPage()
 {
-    const handleSubmit=async(e)=>
-    {
-        try
-        {
-            // POST CREATE USER
-
-        }
-        catch(error)
-        {
-
-        }
-    }
     return(
         <>
-            <form onSubmit={handleSubmit}></form>
+        <h1>Create Employee</h1>
+        <Link to={"/"}>
+            <p> Back to Employe List</p>
+        </Link>
+            <EmplyoyeeForm></EmplyoyeeForm>
         </>
     )
 }
